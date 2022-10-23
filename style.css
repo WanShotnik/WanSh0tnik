@@ -1,6 +1,6 @@
 
 body {
-    background-color: rgb(221, 239, 239);
+    background: linear-gradient(45deg, yellow, lightGreen);
 }
 .smit{
     color: rgb(215, 15, 15);
@@ -10,12 +10,27 @@ body {
 .glav {
     position: absolute;
     top: 0px;
+    left: 0;
 }
 
-
+.contact{
+    top: 150px;
+    display: block;
+    position: fixed;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    background-color: rgb(67, 98, 183);
+}
+.cont{
+    font-size: 60px;
+    text-transform: uppercase;
+}
+.contact:hover{
+    background-color: #d34d43;
+}
 
 nav {
-    width: 850px;
+    width: 900px;
     margin: 100px;
 }
 
@@ -23,7 +38,7 @@ nav:before {
     content: '';
     display: block;
     height: 50px;
-    width: 100%;
+    width: 1000px;
     background: rgb(13, 52, 130);
     position: absolute;
     left: 0;
@@ -34,7 +49,7 @@ ul {
     margin: 0;
     padding: 0;
     list-style: none;
-    height: 50px;
+    height: 0;
 }
 
 ul li {
@@ -45,9 +60,10 @@ ul li a {
     color: #fff;
     display: block;
     height: 50px;
-    padding:0 50px;
+    padding: 0px 50px;
     text-transform: uppercase;
     text-decoration: none;
+    color: rgb(255, 255, 255);
     line-height: 50px;
 }
 ul li a:hover {
@@ -77,7 +93,7 @@ ul li a:hover {
 
 .foto1 {
     position: absolute;
-    top: 1300px;
+    top: 1200px;
     left: 18%;
     border: solid 10px;
     border-radius: 0 0 600px 600px; 
@@ -91,6 +107,45 @@ ul li a:hover {
     position: absolute;
     display: block;
     top: 200px;
-    left: 40px;
+    left: 700px;
 }
+
+.youtube1 {
+    border-radius: 50px 50px 50px 50px;
+}
+
+.text1 {
+    font-size: 60px;
+    background-color: rgb(160, 221, 254);
+    position: absolute;
+    display: block;
+    text-align: center;
+    top: 2000px;
+    left: 120px;
+}
+
+.text2 {
+    font-size: 60px;
+    background-color: rgb(160, 221, 254);
+    position: absolute;
+    display: block;
+    text-align: center;
+    top: 2500px;
+    left: 120px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(255, 255, 255);
+}
+
+
+
 

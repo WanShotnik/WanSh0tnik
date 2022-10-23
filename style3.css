@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(221, 239, 239);
+    background: linear-gradient(45deg, yellow, lightGreen);
 }
 
 .smit{
@@ -8,7 +8,8 @@ body {
 
 .glav {
     position: absolute; 
-    top: 0px;  
+    top: 0px;
+    left: 0px;  
 }
 
 nav {
@@ -20,7 +21,7 @@ nav:before {
     content: '';
     display: block;
     height: 50px;
-    width: 100%;
+    width: 1000px;
     background: rgb(13, 52, 130);
     position: absolute;
     left: 0;
@@ -62,3 +63,48 @@ ul li a:hover {
     font-size: 30px;
 }
 
+.youtube {
+    position: absolute;
+    display: block;
+    top: 200px;
+    left: 700px;
+}
+
+.list {
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    width: 860px;
+    height: 4000px;
+    top: 390px;
+    left: 70px;
+}
+
+.strok {
+    display: inline-block;
+    border: solid 5px;
+    
+}
+
+h3 {
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 100px;
+}
+
+.foto1 {
+    margin: 10px 100px 30px 100px;
+    border: solid 3px;
+    
+}
+.data{
+    font-size: 55px;
+    color: #000;
+    background-color: lightblue;
+    position: absolute;
+    top: -45px;
+    right: 0px;
+    border: solid 2px;
+}
