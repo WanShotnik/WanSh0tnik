@@ -80,29 +80,41 @@ ul li a:hover {
     display: block;
     position: absolute;
     background-color: #fff;
-    width: 860px;
+    width: 880px;
     height: 4000px;
     top: 450px;
     left: 70px;
 }
 
 .strok {
+    left: 0px;
     display: inline-block;
     border: solid 5px;
+    
     
 }
 
 h3 {
+    position: relative;
+    top: 40px;
     font-size: 60px;
     text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 .foto1 {
-    margin: 0px 80px 30px 80px;
-    border: solid 2px;
+    margin: 50px;
+    left: 0px;
+    border: solid 10px;
     
 }
-
+.data{
+    position: relative;
+    top: -50px;
+    font-size: 60px;
+    background-color: aquamarine;
+}
 
 
 
